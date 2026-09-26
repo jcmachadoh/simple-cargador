@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">"Tenemo' Luz"</string>
+    <string name="widget_level_format">%1$d%%</string>
+    <string name="widget_charging">⚡ Cargando</string>
+    <string name="widget_idle">Sin corriente</string>
+    <string name="widget_no_sessions">Aún sin cargas registradas</string>
+    <string name="widget_last_session">Última carga: +%1$d%% · %2$s</string>
+    <string name="widget_description">Nivel de batería y última carga</string>
+    <string name="widget_time_today">Hoy: %1$s</string>
+    <string name="widget_time_today_none">Hoy: —</string>
+    <string name="widget_health">Vida: %1$d%%</string>
+    <string name="widget_health_premium">Vida: Premium</string>
+
+    <!-- Configuración / actualización -->
+    <string name="settings_title">Configuración</string>
+    <string name="settings_about_title">Acerca de</string>
+    <string name="settings_about_body">Tenemo\' Luz convierte la incertidumbre de los apagones en datos claros. Registra automáticamente cada carga de tu batería: cuándo empezó, cuánto subió el nivel, cuánto tiempo estuviste con corriente y qué tan sana está comparando su capacidad actual contra la de fábrica. Así aprovechas mejor cada ventana de corriente y decides rápido si la carga está funcionando. Todo funciona 100% en tu teléfono, sin internet ni cuentas: tu información nunca sale del dispositivo.</string>
+    <string name="settings_about_premium">Hacerse Premium</string>
+    <string name="settings_language">Idioma</string>
+    <string name="settings_spanish">Español</string>
+    <string name="settings_english">English</string>
+    <string name="settings_widget_title">Widget</string>
+    <string name="settings_widget_interval">Intervalo del widget</string>
+    <string name="settings_widget_interval_desc">El nivel se actualiza al instante al cambiar; el intervalo mantiene al día el gráfico y el tiempo de hoy.</string>
+    <string name="settings_widget_interval_5">Cada 5 minutos</string>
+    <string name="settings_widget_interval_10">Cada 10 minutos</string>
+    <string name="settings_widget_interval_15">Cada 15 minutos</string>
+    <string name="settings_widget_interval_30">Cada 30 minutos</string>
+    <string name="settings_widget_interval_60">Cada hora</string>
+    <string name="settings_widget_interval_current">Actual: cada %1$d minutos</string>
+    <string name="settings_widget_interval_value">%1$d min</string>
+    <string name="settings_update">Actualización</string>
+    <string name="settings_check_updates">Buscar actualizaciones</string>
+    <string name="settings_checking">Comprobando…</string>
+    <string name="settings_up_to_date">Ya tienes la última versión ✓</string>
+    <string name="settings_new_version">Nueva versión %1$s disponible.</string>
+    <string name="settings_download_install">Descargar e instalar</string>
+    <string name="settings_downloading">Descargando actualización…</string>
+    <string name="settings_installer_open">Instalador abierto. Revisa la confirmación.</string>
+    <string name="settings_install_failed">No se pudo descargar la actualización.</string>
+    <string name="settings_error">Error al buscar actualizaciones.</string>
+    <string name="settings_retry">Reintentar</string>
+    <string name="settings_need_install_permission">Para instalar, primero autoriza la instalación de apps desconocidas.</string>
+    <string name="settings_allow_install">Permitir instalación</string>
+    <string name="settings_back">Atrás</string>
+
+    <!-- Navegación -->
+    <string name="nav_home">Resumen</string>
+    <string name="nav_history">Historial</string>
+    <string name="nav_stats">Estadísticas</string>
+    <string name="nav_settings">Configuración</string>
+
+    <!-- Barra superior -->
+    <string name="topbar_settings">Configuración</string>
+    <string name="topbar_back">Atrás</string>
+    <string name="topbar_theme_desc">Tema: %1$s. Toca para cambiar.</string>
+    <string name="section_help_desc">Ayuda sobre %1$s</string>
+    <string name="theme_system">Automático</string>
+    <string name="theme_light">Claro</string>
+    <string name="theme_dark">Oscuro</string>
+
+    <!-- Inicio -->
+    <string name="home_charging_now">⚡ Cargando ahora</string>
+    <string name="home_no_power">Sin corriente</string>
+    <string name="home_gained_today">Ganado hoy</string>
+    <string name="home_charges_today">Cargas hoy</string>
+    <string name="home_time_powered">Tiempo con corriente</string>
+    <string name="home_last_10">Últimas 10 cargas</string>
+    <string name="home_last_10_help">Cada barra muestra de dónde a dónde subió tu batería en esa carga. Cuanto más larga, más aprovechaste la ventana de corriente.</string>
+    <string name="home_empty_chart">Aún no hay cargas registradas.\nCuando conectes el cargador, empezaremos a medir por ti automáticamente.</string>
+
+    <!-- Historial -->
+    <string name="history_share_title">Compartir historial</string>
+    <string name="history_export_desc">Exportar historial</string>
+    <string name="history_export_csv_json">Exportar y compartir (CSV + JSON)</string>
+    <string name="history_help">Este porcentaje indica cuánto subió tu batería en cada carga.</string>
+    <string name="history_empty_title">Tu historial está vacío</string>
+    <string name="history_empty_body">Conecta el cargador y la primera carga aparecerá aquí sola. No necesitas hacer nada más.</string>
+    <string name="history_in_progress">en curso</string>
+
+    <!-- Estadísticas -->
+    <string name="stats_premium_required">Las estadísticas avanzadas son parte de la versión Premium.</string>
+    <string name="stats_unlock_premium">Desbloquear Premium</string>
+    <string name="stats_health_title">Salud estimada</string>
+    <string name="stats_health_help">Comparamos la carga acumulada medida con la capacidad de fábrica para estimar qué tan sana está tu batería.</string>
+    <string name="stats_health_pending">Se calculará automáticamente cuando tengamos cargas con datos de corriente.</string>
+    <string name="stats_capacity_formatted">Capacidad estimada: %1$s mAh de %2$s mAh de fábrica</string>
+    <string name="stats_trend_improving">▲ Mejorando esta semana</string>
+    <string name="stats_trend_worsening">▼ Empeorando esta semana</string>
+    <string name="stats_trend_stable">● Estable esta semana</string>
+    <string name="stats_level_time_title">Nivel vs tiempo</string>
+    <string name="stats_level_time_help">Cómo ha evolucionado el nivel final de tus cargas a lo largo del tiempo.</string>
+    <string name="stats_level_time_min">Necesitamos al menos 2 cargas completas para dibujar la línea.</string>
+    <string name="stats_duration_gain_title">Duración vs ganancia</string>
+    <string name="stats_duration_gain_help">Cada punto es una carga: minutos conectado contra porcentaje ganado. Los puntos altos a la izquierda son tus cargas más eficientes.</string>
+    <string name="stats_duration_gain_min">Aún no hay suficientes datos de duración.</string>
+
+    <!-- Pago -->
+    <string name="pay_unlock_premium">Desbloquear Premium</string>
+    <string name="pay_price_desc">Pago único de $%1$s CUP vía Enzona. Sin suscripciones: la licencia es perpetua y funciona sin internet.</string>
+    <string name="pay_premium_active">✔ Premium activo</string>
+    <string name="pay_with_enzona">Pagar con Enzona</string>
+    <string name="pay_waiting">Esperando pago…</string>
+    <string name="pay_verify">Ya pagué — Verificar</string>
+    <string name="pay_no_internet">¿No tienes internet?</string>
+    <string name="pay_code_label">Código de activación (XXXX-XXXX-XXXX-XXXX)</string>
+    <string name="pay_activate_code">Activar con código</string>
+    <string name="pay_code_hint">El código se entrega por Telegram tras confirmar tu pago. Es único para este teléfono.</string>
+    <string name="pay_msg_waiting">Abre Enzona o Transfermóvil y autoriza el pago %1$s. Al terminar, pulsa Verificar.</string>
+    <string name="pay_msg_activated">¡Premium activado! La licencia es perpetua y quedó guardada.</string>
+    <string name="pay_msg_offline_activated">Premium activado con código offline.</string>
+    <string name="pay_msg_invalid_code">Código inválido para este dispositivo. Verifica e inténtalo de nuevo.</string>
+</resources>

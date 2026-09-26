@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">"We Got Power"</string>
+    <string name="widget_level_format">%1$d%%</string>
+    <string name="widget_charging">⚡ Charging</string>
+    <string name="widget_idle">No power</string>
+    <string name="widget_no_sessions">No charges recorded yet</string>
+    <string name="widget_last_session">Last charge: +%1$d%% · %2$s</string>
+    <string name="widget_description">Battery level and last charge</string>
+    <string name="widget_time_today">Today: %1$s</string>
+    <string name="widget_time_today_none">Today: —</string>
+    <string name="widget_health">Life: %1$d%%</string>
+    <string name="widget_health_premium">Life: Premium</string>
+
+    <!-- Settings / update -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_about_title">About</string>
+    <string name="settings_about_body">We Got Power turns the uncertainty of blackouts into clear data. It automatically records every battery charge: when it started, how much the level rose, how long you were on power, and how healthy the battery is by comparing its current capacity against the factory one. That way you make the most of every power window and quickly know whether the charge is actually working. Everything runs 100% on your phone, no internet or accounts needed: your information never leaves the device.</string>
+    <string name="settings_about_premium">Go Premium</string>
+    <string name="settings_language">Language</string>
+    <string name="settings_spanish">Español</string>
+    <string name="settings_english">English</string>
+    <string name="settings_widget_title">Widget</string>
+    <string name="settings_widget_interval">Widget interval</string>
+    <string name="settings_widget_interval_desc">Level updates instantly on change; interval keeps chart and today time fresh.</string>
+    <string name="settings_widget_interval_5">Every 5 minutes</string>
+    <string name="settings_widget_interval_10">Every 10 minutes</string>
+    <string name="settings_widget_interval_15">Every 15 minutes</string>
+    <string name="settings_widget_interval_30">Every 30 minutes</string>
+    <string name="settings_widget_interval_60">Every hour</string>
+    <string name="settings_widget_interval_current">Current: every %1$d minutes</string>
+    <string name="settings_widget_interval_value">%1$d min</string>
+    <string name="settings_update">Update</string>
+    <string name="settings_check_updates">Check for updates</string>
+    <string name="settings_checking">Checking…</string>
+    <string name="settings_up_to_date">You already have the latest version ✓</string>
+    <string name="settings_new_version">New version %1$s available.</string>
+    <string name="settings_download_install">Download and install</string>
+    <string name="settings_downloading">Downloading update…</string>
+    <string name="settings_installer_open">Installer opened. Confirm it to finish.</string>
+    <string name="settings_install_failed">Could not download the update.</string>
+    <string name="settings_error">Error checking for updates.</string>
+    <string name="settings_retry">Retry</string>
+    <string name="settings_need_install_permission">To install, first allow app installation from unknown sources.</string>
+    <string name="settings_allow_install">Allow installation</string>
+    <string name="settings_back">Back</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_history">History</string>
+    <string name="nav_stats">Stats</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Top bar -->
+    <string name="topbar_settings">Settings</string>
+    <string name="topbar_back">Back</string>
+    <string name="topbar_theme_desc">Theme: %1$s. Tap to change.</string>
+    <string name="section_help_desc">Help about %1$s</string>
+    <string name="theme_system">Auto</string>
+    <string name="theme_light">Light</string>
+    <string name="theme_dark">Dark</string>
+
+    <!-- Home -->
+    <string name="home_charging_now">⚡ Charging now</string>
+    <string name="home_no_power">No power</string>
+    <string name="home_gained_today">Gained today</string>
+    <string name="home_charges_today">Charges today</string>
+    <string name="home_time_powered">Time on power</string>
+    <string name="home_last_10">Last 10 charges</string>
+    <string name="home_last_10_help">Each bar shows where your battery started and where it ended in that charge. The longer the bar, the more you took advantage of the power window.</string>
+    <string name="home_empty_chart">No charges recorded yet.\nWhen you plug in the charger, we will start measuring for you automatically.</string>
+
+    <!-- History -->
+    <string name="history_share_title">Share history</string>
+    <string name="history_export_desc">Export history</string>
+    <string name="history_export_csv_json">Export and share (CSV + JSON)</string>
+    <string name="history_help">This percentage shows how much your battery rose in each charge.</string>
+    <string name="history_empty_title">Your history is empty</string>
+    <string name="history_empty_body">Plug in the charger and the first charge will appear here on its own. You don\'t need to do anything else.</string>
+    <string name="history_in_progress">in progress</string>
+
+    <!-- Stats -->
+    <string name="stats_premium_required">Advanced statistics are part of the Premium version.</string>
+    <string name="stats_unlock_premium">Unlock Premium</string>
+    <string name="stats_health_title">Estimated health</string>
+    <string name="stats_health_help">We compare the measured accumulated charge with the factory capacity to estimate how healthy your battery is.</string>
+    <string name="stats_health_pending">It will be calculated automatically once we have charges with current data.</string>
+    <string name="stats_capacity_formatted">Estimated capacity: %1$s mAh of %2$s mAh factory</string>
+    <string name="stats_trend_improving">▲ Improving this week</string>
+    <string name="stats_trend_worsening">▼ Worsening this week</string>
+    <string name="stats_trend_stable">● Stable this week</string>
+    <string name="stats_level_time_title">Level vs time</string>
+    <string name="stats_level_time_help">How the final level of your charges has evolved over time.</string>
+    <string name="stats_level_time_min">We need at least 2 complete charges to draw the line.</string>
+    <string name="stats_duration_gain_title">Duration vs gain</string>
+    <string name="stats_duration_gain_help">Each point is a charge: minutes plugged in against percentage gained. The high points on the left are your most efficient charges.</string>
+    <string name="stats_duration_gain_min">Not enough duration data yet.</string>
+
+    <!-- Payment -->
+    <string name="pay_unlock_premium">Unlock Premium</string>
+    <string name="pay_price_desc">One-time payment of $%1$s CUP via Enzona. No subscriptions: the license is perpetual and works offline.</string>
+    <string name="pay_premium_active">✔ Premium active</string>
+    <string name="pay_with_enzona">Pay with Enzona</string>
+    <string name="pay_waiting">Waiting for payment…</string>
+    <string name="pay_verify">I already paid — Verify</string>
+    <string name="pay_no_internet">No internet?</string>
+    <string name="pay_code_label">Activation code (XXXX-XXXX-XXXX-XXXX)</string>
+    <string name="pay_activate_code">Activate with code</string>
+    <string name="pay_code_hint">The code is delivered by Telegram after you confirm your payment. It is unique to this phone.</string>
+    <string name="pay_msg_waiting">Open Enzona or Transfermóvil and authorize payment %1$s. When you finish, tap Verify.</string>
+    <string name="pay_msg_activated">Premium activated! The license is perpetual and saved.</string>
+    <string name="pay_msg_offline_activated">Premium activated with an offline code.</string>
+    <string name="pay_msg_invalid_code">Invalid code for this device. Please check and try again.</string>
+</resources>

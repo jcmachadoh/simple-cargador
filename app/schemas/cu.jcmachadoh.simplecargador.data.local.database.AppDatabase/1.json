@@ -1,0 +1,73 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "1efcfb86ac488408786fa7d2e1ef01e2",
+    "entities": [
+      {
+        "tableName": "charging_sessions",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `start_time` INTEGER NOT NULL, `end_time` INTEGER, `start_level` INTEGER NOT NULL, `end_level` INTEGER, `duration_seconds` INTEGER, `avg_temperature` REAL, `avg_voltage_mv` REAL, `accumulated_mah` REAL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "startTimeMillis",
+            "columnName": "start_time",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endTimeMillis",
+            "columnName": "end_time",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "startLevelPercent",
+            "columnName": "start_level",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "endLevelPercent",
+            "columnName": "end_level",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "durationSeconds",
+            "columnName": "duration_seconds",
+            "affinity": "INTEGER"
+          },
+          {
+            "fieldPath": "avgTemperatureCelsius",
+            "columnName": "avg_temperature",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "avgVoltageMillivolts",
+            "columnName": "avg_voltage_mv",
+            "affinity": "REAL"
+          },
+          {
+            "fieldPath": "accumulatedMah",
+            "columnName": "accumulated_mah",
+            "affinity": "REAL"
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '1efcfb86ac488408786fa7d2e1ef01e2')"
+    ]
+  }
+}
